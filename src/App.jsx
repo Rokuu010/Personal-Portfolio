@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';   // 👈 import Contact
+import Contact from './components/Contact';
 import GlitchBackground from './components/GlitchBackground';
 import BlueprintBackground from './components/BlueprintBackground';
 import MatrixBackground from './components/MatrixBackground';
@@ -21,7 +21,7 @@ function App() {
             const y = window.scrollY + window.innerHeight / 2;
 
             if (contact && y >= contact.offsetTop) {
-                setActiveSection('about'); // 👈 use same background as About
+                setActiveSection('about');
             } else if (projects && y >= projects.offsetTop) {
                 setActiveSection('projects');
             } else if (about && y >= about.offsetTop) {
@@ -73,7 +73,7 @@ function App() {
             </section>
 
             <section id="contact">
-                <Contact />   {/* 👈 shares the same Blueprint background */}
+                <Contact />
             </section>
         </>
     );

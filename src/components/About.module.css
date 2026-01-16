@@ -1,4 +1,4 @@
-/* --- Global Section & Layout --- */
+/* Global Section & Layout */
 .section {
     min-height: 100vh;
     width: 100%;
@@ -22,7 +22,7 @@
     z-index: 2;
 }
 
-/* --- Typography --- */
+/* Typography */
 .heading {
     font-size: 2.5rem; /* Slightly smaller for mobile */
     font-weight: bold;
@@ -45,7 +45,7 @@
     margin-bottom: 1.25rem;
 }
 
-/* --- Column & Card Styles --- */
+/* Column & Card Styles */
 .textColumn {
     flex: 1.2;
     text-align: center; /* Center text on mobile */
@@ -80,7 +80,7 @@
     object-fit: cover;
 }
 
-/* --- Skills List --- */
+/* Skills List */
 .list {
     font-size: 1.1rem;
     color: #d1d5db;
@@ -98,7 +98,7 @@
     white-space: nowrap;
 }
 
-/* --- Buttons --- */
+/* Buttons */
 .buttonContainer {
     margin-top: 2rem;
     display: flex;
@@ -139,14 +139,14 @@
 }
 
 
-/* --- DESKTOP STYLES --- */
+/* DESKTOP STYLE */
 /* Media query applies these styles only on screens 1024px or wider */
 @media (min-width: 1024px) {
     .section {
         padding: 2rem;
     }
     .container {
-        flex-direction: row; /* Switch to row layout on desktop */
+        flex-direction: row; /* Switched to row layout on desktop */
         align-items: flex-start; /* Align to top on desktop */
         gap: 6rem;
     }

@@ -22,10 +22,8 @@ function GlitchBackground() {
     return (
         <div
             className="glitch"
-            // This style ensures the section is opaque
             style={{ backgroundColor: 'black' }}
         >
-            {/* Change the filename in all five of these lines */}
             <div className="glitch__img" style={{ backgroundImage: 'url(/GlitchIppo.jpg)' }}></div>
             <div className="glitch__img" style={{ backgroundImage: 'url(/GlitchIppo.jpg)' }}></div>
             <div className="glitch__img" style={{ backgroundImage: 'url(/GlitchIppo.jpg)' }}></div>

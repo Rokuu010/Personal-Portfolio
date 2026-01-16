@@ -15,7 +15,7 @@
     background-position: center;
 }
 
-/* This is the mouse-follow reveal effect */
+/* This is for the mouse follow effect */
 .glitch__img:not(:first-child) {
     mask-image: radial-gradient(circle 15vmax at var(--x, 50%) var(--y, 50%), black 0%, transparent 100%);
     -webkit-mask-image: radial-gradient(circle 15vmax at var(--x, 50%) var(--y, 50%), black 0%, transparent 100%);
@@ -37,7 +37,7 @@
     animation: glitch-anim-3 5s infinite linear alternate;
 }
 
-/* These keyframes add the constant, subtle movement */
+/* These keyframes add the constant subtle movement */
 @keyframes glitch-anim-1 {
     0% { transform: translate(2%, -1%); }
     100% { transform: translate(-2%, 1%); }

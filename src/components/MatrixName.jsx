@@ -25,7 +25,6 @@ function MatrixName() {
             mask.width = width;
             mask.height = height;
 
-            // 👇 Smaller font size here (from 8rem → 3rem)
             maskCtx.clearRect(0, 0, width, height);
             maskCtx.fillStyle = 'white';
 

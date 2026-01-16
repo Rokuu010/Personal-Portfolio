@@ -1,5 +1,5 @@
 // src/components/Projects.jsx
-import { projects } from "../data/projectData.js"; // Double-check this path
+import { projects } from "../data/projectData.js";
 import { FiGithub } from "react-icons/fi";
 
 const techColorMap = {
@@ -14,7 +14,6 @@ const techColorMap = {
 };
 
 function Projects() {
-    // DEBUGGING: This will print the projects data to your browser's console.
     console.log("Data loaded into Projects component:", projects);
 
     return (

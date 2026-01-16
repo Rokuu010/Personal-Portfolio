@@ -1,20 +1,18 @@
 // src/components/Hero.jsx
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import MatrixName from './MatrixName';
-import GlitchBackground from './GlitchBackground'; // 1. Added this import
+import GlitchBackground from './GlitchBackground';
 
 function Hero() {
     return (
-        // The 'relative' class is correctly here
         <section className="h-screen flex items-start justify-start scroll-snap-align-start p-8 md:p-12 relative">
 
-            {/* 2. Added this div for the background */}
+            {/* Added this div for the background */}
             <div className="absolute top-0 left-0 w-full h-full z-[-1]">
                 <GlitchBackground />
             </div>
 
             <div className="text-left">
-                {/* All your original content stays the same */}
                 <MatrixName />
 
                 <p

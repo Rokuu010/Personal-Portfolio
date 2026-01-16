@@ -59,7 +59,6 @@ function Contact() {
         }
     };
 
-    // ✅ define handlers
     const handleMouseEnter = useCallback((e) => hoverEffect(e, true), []);
     const handleMouseLeave = useCallback((e) => hoverEffect(e, false), []);
 

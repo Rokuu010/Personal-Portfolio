@@ -1,6 +1,5 @@
 // src/components/About.jsx
 
-// 1. Import React, your styles, the background, and icons
 import styles from './About.module.css';
 import BlueprintBackground from './BlueprintBackground';
 import {
@@ -13,7 +12,6 @@ import {
 } from 'react-icons/si';
 
 
-// This is a small, reusable component for your skills list.
 const SkillItem = ({ Icon, color, name }) => (
     <span className={styles.skillItem}>
         <Icon color={color} size={20} /> {name}
@@ -21,8 +19,6 @@ const SkillItem = ({ Icon, color, name }) => (
 );
 
 function About() {
-    // All style objects and responsive logic have been removed from here.
-    // It's all handled by the CSS module now.
 
     return (
         <section className={styles.section}>
