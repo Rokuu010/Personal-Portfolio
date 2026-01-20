@@ -30,16 +30,13 @@ function About() {
             <div className={styles.container}>
                 {/* Column 1: Bio, Education, Experience */}
                 <div className={styles.textColumn}>
-
-                    {/* FIXED IMAGE BLOCK */}
-                    <div className={styles.imageContainer} style={{ marginTop: '3rem' }}>
+                    <div className={styles.imageContainer}>
                         <img
-                            src="/Headshot_new.jpg"
+                            src="/Headshot.jpg"
                             alt="Profile headshot"
                             className={styles.image}
                         />
                     </div>
-
                     <h2 className={styles.heading}>About Me</h2>
 
                     <p className={styles.paragraph}>
@@ -134,3 +131,4 @@ function About() {
 }
 
 export default About;
+
